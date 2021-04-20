@@ -1,0 +1,425 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: cream;
+	src: url("../font/Cream-Cake.woff");
+}
+
+body {
+	background-color: #fff;
+	background-image: url(../img/tinas-06-bg2.png);	
+	background-size: 250px;
+	height: 100%;	
+}
+
+/* Começo do Menu Principal e Cabeçalho */
+
+#container-topo {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #1d347c;
+}
+
+#logos-topo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 5px 15px;
+}
+
+#menu-topo {
+	text-align: center;
+}
+
+#menu-topo a {
+	text-decoration: none;
+	font-family: cream;
+	font-size: 3.5em;
+	margin: 15px;
+	color: #fff;
+}
+
+#menu-topo a:hover {
+	text-decoration: none;	
+	color: #ed1823;
+}
+
+.btn-delivery a {
+	margin-left: 50px;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 0 10px;
+	background-color: #ed1823;
+	color: #1d347c;
+}
+
+.btn-delivery a:hover {
+	background-color: white;
+	color: #ed1823;
+}
+
+.conteudo-sobre {
+	display: flex;
+	justify-content: center;
+
+}
+
+/* Fim do Menu Principal e Cabeçalho */
+
+
+
+
+/* Começo do Conteúdo */
+
+#container-conteudo {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 50px;	
+	padding: 20px;
+}
+
+
+
+#container-conteudo-sobre {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 50px;	
+	padding: 20px;
+}
+
+#container-conteudo-cardapio {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 50px;	
+	padding: 20px;
+
+}
+
+#conteudo-home {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.titulo {
+	text-transform: uppercase;
+	text-align: right;
+	color: #ed1823;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.titulo-comida {
+	text-transform: uppercase;
+	text-align: right;
+	color: #ed1823;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+#titulo-cardapio {
+	text-transform: uppercase;
+	text-align: right;
+	color: #ed1823;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+#texto-welcome {
+	text-align: justify;
+	font-weight: bold;
+	margin-bottom: 50px;
+	color: #1d347c;
+}
+
+#realce-home {
+	color: #ed1823;
+}
+
+.titulo-cardapio {
+	text-align: left;
+	font-family: cream;
+	font-size: 2em; 
+	color: #ed1823;
+}
+
+.texto-cardapio {
+	font-size: 0.8em;
+	color: #1d347c;
+	font-weight: bold;
+}
+
+#btn-delivery-home {
+	font-family: cream;
+	font-size: 3.5em;
+	border: 2px solid #1d347c;
+	background-color: #ed1823;
+	border-radius: 10px;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#btn-delivery-home:hover {	
+	background-color: #1d347c;
+}
+
+footer {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #1d347c;
+	margin-top: 50px;
+	text-align: center;
+	color: #fff;
+	height: 50px;
+
+}
+
+#texto-sobre {
+	text-align: justify;
+	font-weight: bold;
+	margin-bottom: 50px;
+	color: #1d347c;
+
+}
+
+.imagem-sobre {
+	margin: 5px;
+}
+
+#btn-franquia {
+	border: 2px solid #1d347c;
+	border-radius: 5px;
+	font-size: 1em;
+	padding: 0 5px;
+	background-color: #ed1823;
+	cursor: pointer;
+	font-weight: bold;
+	color: #fff;
+}
+
+input {
+	border: 2px solid #ed1823;
+	border-radius: 5px;
+}
+
+label {
+	color: #1d347c;
+	font-weight: bold;
+}
+
+form {
+	border: 1px dotted #ed1823;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.btn-apps {
+	border: 2px solid #ed1823;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+}
+
+.btn-apps:hover {
+	border: 2px solid #ed1823;
+	background-color:rgba(255,0,0,0.3);
+}
+
+#menu-topo a#home,
+#menu-topo a#sobre,
+#menu-topo a#franquia,
+#menu-topo a#cardapio {
+	color: #ed1823;
+}
+
+#menu-topo a#delivery {
+	background-color: #fff;
+	color: #ed1823;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 575.98px) {
+
+	#container-topo {
+	width: 100%;
+}
+
+	#container-conteudo {
+		width: 100%;
+	}
+
+	#container-conteudo-sobre {
+		width: 100%;
+	}
+
+	#container-conteudo-cardapio {
+		width: 100%;
+	}
+
+	#conteudo-home {
+		flex-wrap: wrap;
+	}
+
+	#logo2, #logo3 {
+		display: none;
+	}
+
+	#logo1 {
+		padding-left: 95px;
+	}
+
+	#imagem-home {
+		display: none;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	
+	.titulo-comida {
+	text-transform: uppercase;
+	text-align: right;
+	color: #ed1823;
+	font-size: 1.5em;
+	font-weight: bold;
+	}
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	#container-topo {
+	width: 100%;
+	}
+
+	#container-conteudo {
+		width: 100%;
+	}
+
+	#container-conteudo-sobre {
+		width: 100%;
+	}
+
+	#container-conteudo-cardapio {
+		width: 100%;
+	}
+
+	#conteudo-home {
+		flex-wrap: wrap;
+	}
+
+	#logo2 {
+		display: none;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	#container-topo {
+		width: 100%;
+	}
+
+	#container-conteudo {
+		width: 100%;
+	}
+
+	#container-conteudo-sobre {
+		width: 100%;
+	}
+
+	#container-conteudo-cardapio {
+		width: 100%;
+	}
+
+	#logo2 {
+		display: none;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	.conteudo-sobre {
+		flex-wrap: wrap;
+	}
+
+}
+	
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	#container-topo {
+	width: 100%;
+
+}
+
+	#container-conteudo {
+	width: 100%;
+}
+
+#container-conteudo-sobre {
+	width: 100%;
+}
+
+#container-conteudo-cardapio {
+		width: 80%;
+	}
+
+	footer {
+	width: 100%;
+}
+
+.conteudo-sobre {
+		flex-wrap: wrap;
+	}
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+.conteudo-sobre {
+		flex-wrap: wrap;
+	}
+
+}
